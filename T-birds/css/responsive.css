@@ -1,0 +1,244 @@
+@media screen and (min-width: 480px) {
+  
+  /**********************************
+  TWO COLUMN LAYOUT
+  ***********************************/
+  
+  .primary{
+    width: 40%;
+    float: left;
+  }
+  
+  .primary-2{
+    width: 50%;
+    float: left;
+  }
+  
+  .secondary {
+    width: 40%;
+    float: right;
+  }
+  
+  .secondary-2 {
+    width: 50%;
+    float: right;
+  }
+  
+  .home-header li,
+  .menu-header li {
+   font-family: 'Gochi Hand', cursive;
+  display: inline-block;
+  padding: 1px 5px;
+  text-align:center;
+      font-size: 1em;
+
+}
+  
+  .h4-4-1{
+  color: #f6511d;
+    font-size: 20px;
+  margin-left: 90px;
+}
+
+
+.h4-4-2{
+  color: #f6511d;
+  font-size:20px;
+  margin-right: 70px;
+}
+
+
+  .cheesy{ height: 850px;
+  background: linear-gradient(#ff7226, transparent 50%) no-repeat ,
+    linear-gradient(0deg, #fff, transparent 90%),
+         #ff7226  url('../food/Pizza01.jpg') no-repeat center;
+  background-size: 2200px;
+}
+
+  
+ header {
+    border-top: 100px solid #ff7226;
+  }
+
+  
+  /**********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+  
+  #gallery li {
+    width: 28.3333%;
+  }
+  
+  #gallery li:nth-child(4n) {
+    clear: left;
+  }
+  
+  /**********************************
+  PAGE: ABOUT
+  ***********************************/
+  
+  .profile-photo {
+    float: right;
+    margin: 20px 5% 80px 0;
+  }
+  
+  .games-color{
+  font-family: 'Gochi Hand', cursive;
+  font-size: 25px;
+}
+  
+}
+
+@media screen and (min-width: 660px) {
+
+  /**********************************
+  HEADER
+  ***********************************/
+
+  nav {
+/*    background: none;*/
+    float: right;
+    font-size: 1.95em;
+    margin-right: 5%;
+    text-align: right;
+    width: 40%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+  
+   h3 {
+    font-size: 3em;
+    margin-bottom: 25px;
+    margin-top:95px;
+  }
+  
+   h4 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+  }
+    
+  
+  header {
+    border-bottom: 120px solid #ff7226;
+    margin-bottom: 100px;
+  }
+  
+  .h4-2{
+font-size: 50px;
+  color: #01AAEF;
+  text-align: center;
+}
+  
+.h4-3{
+font-size: 39px;
+    color: #f6511d;
+  text-align:center;
+}
+
+.h4-4{
+font-size: 30px;  
+  color: #f6511d;
+}
+
+.right-text {
+font-size: 39px;
+    color: #f6511d;
+  margin-left: 10px;
+  }
+  
+  .left-text{
+font-size: 39px;
+    color: #f6511d;
+  margin-right: 10px;
+  }  
+  
+.home-header ,
+.menu-header{
+  text-align:center;
+  margin-left: 250px; /*the mess up*/
+  }
+  
+  
+
+.home-header,
+  .menu-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  
+  .home-header,
+  .menu-header {
+  
+ max-width: 940px;
+ margin: 0 auto;
+/*  padding: 1% 20%;*/
+  
+  margin-top: -100px;
+  margin-bottom: 10px;
+text-align: center;
+}
+
+ .menu-header{
+    background-color: #BDE52B;
+  }
+  
+  
+.home-header li,
+.menu-header li {
+  font-size: 1.5em;
+}
+
+  .games-color{
+  font-family: 'Gochi Hand', cursive;
+  font-size: 30px;
+}
+
+    .h4-4-1{
+font-size: 30px;  
+  color: #f6511d;
+  margin-left: 90px;
+}
+
+
+.h4-4-2{
+font-size: 30px;  
+  color: #f6511d;
+  margin-right: 70px;
+}
+  
+  .centered02 { 
+  text-align:center;
+  margin-left: 120px;
+}
+}
+@media screen and (min-width: 1px) {
+
+  header {
+    border-top: 10px solid #ff7226;
+    margin-bottom: 100px;    
+  }
+  .home-header,
+ .menu-header{
+  text-align:center;
+  }
+}
+
+
+  
+  
+  

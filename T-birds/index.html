@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>T-birds</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">  
+<!--    <link href='<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">' type='text/css'>-->
+     <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  </head>
+  <body class="cheese">
+    <header>
+      <a href="index.html" id="logo">
+        <h1><img src="food/TBIRDS.jpg" alt="food/TBIRDS.jpg"></h1>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="arcade.html">Arcade</a></li> 
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </nav>
+    </header>
+     <div class="home-header">
+<h4 class="h4-2">Lexington's Best Pizza Buffet!</h4>
+       <h4 class="h4-3">Served Twice Daily!</h4>
+           <section class="primary-2">
+              <h4 class="h4-4-1">Lunch Buffet <br>11am-2pm</h4>       
+       <h4 class="h4-4-1">Adult 8.49</h4>
+        <h4 class="h4-4-1">Salad Bar 5.99</h4>
+             </section>
+             <section class="secondary-2">
+       <h4 class="h4-4-2">Dinner Buffet 5pm-9pm</h4>
+       <h4 class="h4-4-2">Kids 5.99</h4>
+                      <h4 class="h4-4-2">5 & under 1.99</h4>
+                      </section>
+                
+    </div>
+    
+    <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides w3-animate-fading" src="food/Club.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="food/pizza02.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="food/wrap.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="food/cheese-pizza.jpg" style="width:100%">
+        <img class="mySlides w3-animate-fading" src="food/Loaded-potato.jpg" style="width:100%">    
+       <img class="mySlides w3-animate-fading" src="food/Turkey-sandwitch.jpg" style="width:100%">
+       <img class="mySlides w3-animate-fading" src="food/Salad-chicken.jpg" style="width:100%">
+       <img class="mySlides w3-animate-fading" src="food/Chicken-baker.jpg" style="width:100%">
+          <img class="mySlides w3-animate-fading" src="food/cookiemonster.jpg" style="width:100%">
+          <img class="mySlides w3-animate-fading" src="food/burger.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="food/Club.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="food/pizza02.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="food/wrap.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="food/cheese-pizza.jpg" style="width:100%">
+    <img class="mySlides w3-animate-fading" src="food/Loaded-potato.jpg" style="width:100%">    
+       <img class="mySlides w3-animate-fading" src="food/Turkey-sandwitch.jpg" style="width:100%">
+       <img class="mySlides w3-animate-fading" src="food/Salad-chicken.jpg" style="width:100%">
+       <img class="mySlides w3-animate-fading" src="food/Chicken-baker.jpg" style="width:100%">
+          <img class="mySlides w3-animate-fading" src="food/cookiemonster.jpg" style="width:100%">
+          <img class="mySlides w3-animate-fading" src="food/burger.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 10000);    
+}
+</script>
+    <div class="main-page">
+      <p class="home-color"><a href="https://www.google.com/maps/place/T+Birds/@35.6363488,-88.3879988,13z/data=!4m5!3m4!1s0x0:0x4e4b7e758c28a9b7!8m2!3d35.6571338!4d-88.4076111">496 West Church Street <br>Lexington, TN 38351   </a>
+<br><a href="tel:731-249-9397">(731)-249-9397</a></p> 
+    </div>
+      <footer>
+        <a href="https://www.facebook.com/Tbirds-Pizzeria-Grille-108432519194476/"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p class="copy">&copy; 2016 T-birds.</p>
+      </footer>
+    </body>
+</html>

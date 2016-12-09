@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>T-birds</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">  
+<!--    <link href='<link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">' type='text/css'>-->
+         <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  </head>
+  <body class="cheese">
+    <header>
+      <a href="index.html" id="logo">
+        <h1><img src="food/TBIRDS.jpg" alt="food/TBIRDS.jpg"></h1>
+<!--        <h2>Video Gamer</h2>-->
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="arcade.html" class="selected">Arcade</a></li> 
+          <li><a href="events.html">Events</a></li>
+        </ul>
+      </nav>
+    </header>
+       <div class="w3-content w3-section" style="max-width:500px">
+          <img class="mySlides w3-animate-fading" src="food/Games01.jpg" style="width:100%">
+                   <img class="mySlides w3-animate-fading" src="food/Games02.jpg" style="width:100%">
+                   <img class="mySlides w3-animate-fading" src="food/Games03.jpg" style="width:100%">
+                   <img class="mySlides w3-animate-fading" src="food/Games04.jpg" style="width:100%">
+                   <img class="mySlides w3-animate-fading" src="food/Games05.jpg" style="width:100%">
+                   <img class="mySlides w3-animate-fading" src="food/Games01.jpg" style="width:100%">
+                   <img class="mySlides w3-animate-fading" src="food/Games02.jpg" style="width:100%">
+                   <img class="mySlides w3-animate-fading" src="food/Games03.jpg" style="width:100%">
+                   <img class="mySlides w3-animate-fading" src="food/Games04.jpg" style="width:100%">
+                   <img class="mySlides w3-animate-fading" src="food/Games05.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 10000);    
+}
+</script>
+    <div class="main-page02">
+      <p class="games-color"> <a>Are you hungry for some fun?</a><br><a> Are you tristy for some prizes?</a>
+        <br><a>Well we have just what you want at our arcade room, with games and prizes waiting just for you!</a></p> 
+    </div>
+      <footer>
+        <a href="http://facebook.com/luckyexample"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+        <p class="copy">&copy; 2016 T-birds.</p>
+      </footer>
+  </body>
+</html>
